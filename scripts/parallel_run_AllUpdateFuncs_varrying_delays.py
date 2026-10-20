@@ -179,14 +179,14 @@ class ParallelCABN_Synthesis:
                             
                         self.solver.add(self.q[exp_id][n][target] == final_condition)
 
-    def run(self, max_solutions=100):
+    def run(self, max_solutions=100, output_dir="results"):
             total_permutations = 0
             all_permutations = []
             all_trajectories = []
             proven_rules = [] 
 
             print(f"Executing Dynamic Delay Search (Max Solutions: {max_solutions})")
-            smt_dump_path = os.path.join("Results_BBM", "smt_constraints_dump.txt")
+            smt_dump_path = os.path.join(output_dir, "smt_constraints_dump.txt")
             self.print_solver_constraints(output_path=smt_dump_path, print_to_console=False)
             start_time = time.time()
 
@@ -422,15 +422,14 @@ def get_delay(src, tgt, edge_delays, def_min=1, def_max=2):
 if __name__ == "__main__":
     print("Starting execution...")
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config_file", type=str, default=None)
-    parser.add_argument("--models_dir", type=str, default="test_models_BBM")
-    parser.add_argument("--model_file", type=str, default="model.bnet")
-    parser.add_argument("--model_name", type=str, default=None)
-    parser.add_argument("--obs_dir", type=str, default="observations_BBM")
-    parser.add_argument("--results_dir", type=str, default="Results_BBM")
+    parser.add_argument("--config_file", type=str, default=None, help="Optional path to a specific config.json")
+    parser.add_argument("--models_dir", type=str, default="benchmarks", help="Directory containing benchmark model folders")
+    parser.add_argument("--model_file", type=str, default="model.bnet", help="Name of the bnet file in model folders")
+    parser.add_argument("--model_name", type=str, default=None, help="Target specific model folder name (optional)")
+    parser.add_argument("--obs_dir", type=str, default=None, help="Optional separate observations directory")
+    parser.add_argument("--results_dir", type=str, default="results", help="Directory where results will be saved")
 
-    #args = parser.parse_args(['--models_dir', 'test_models_BBM', '--model_file', 'model.bnet','--model_name', '[id-230]__[var-50]__[in-5]__[HEPATOCYTE-GROWTH-FACTOR]', '--obs_dir', 'observations_BBM', '--results_dir', 'Results_BBM'])
-    args = parser.parse_args(['--models_dir', 'sea-urchin-embryo', '--model_file', 'model.bnet','--model_name', 'sea_urchin_model', '--obs_dir', 'observations_sea_urchin', '--results_dir', 'Results_BBM'])
+    args = parser.parse_args()
 
     models_to_process = []
     if args.models_dir and os.path.exists(args.models_dir):
@@ -506,10 +505,24 @@ if __name__ == "__main__":
                         if var not in z3_vars and var not in ["True", "False"]:
                             z3_vars[var] = BoolVal(False)
 
-        # Unified Single-File Observation Loader
-        obs_path = os.path.join(args.obs_dir, f"{model_folder_name}.json")
-        if not os.path.exists(obs_path): 
-            print(f"  [!] No observation file found at {obs_path}. Skipping...")
+        # Dynamic Observation Loader: Searches benchmark model subfolder first
+        obs_path = None
+        if args.obs_dir:
+            cand = os.path.join(args.obs_dir, f"{model_folder_name}.json")
+            if os.path.exists(cand):
+                obs_path = cand
+
+        if not obs_path:
+            cand = os.path.join(model_dir, f"{model_folder_name}.json")
+            if os.path.exists(cand):
+                obs_path = cand
+            else:
+                json_files = [f for f in os.listdir(model_dir) if f.endswith('.json') and f != 'config.json']
+                if json_files:
+                    obs_path = os.path.join(model_dir, json_files[0])
+
+        if not obs_path or not os.path.exists(obs_path): 
+            print(f"  [!] No observation file found for {model_folder_name} in {model_dir}. Skipping...")
             continue
 
         with open(obs_path, 'r') as f:
@@ -570,7 +583,11 @@ if __name__ == "__main__":
             for t, comp, val in constraints:
                 sys.solver.add(sys.q[exp_id][t][comp] == val)
 
-        run_output = sys.run(max_solutions=10)
+        # Define destination results directory per model
+        model_results_dir = os.path.join(args.results_dir, model_folder_name)
+        os.makedirs(model_results_dir, exist_ok=True)
+
+        run_output = sys.run(max_solutions=10, output_dir=model_results_dir)
         
         all_permutations = run_output[0] if run_output else []
         all_trajectories = run_output[1] if run_output and len(run_output) > 1 else []
@@ -578,9 +595,6 @@ if __name__ == "__main__":
         runtime = run_output[3] if run_output and len(run_output) == 4 else None
 
         if all_permutations:
-            model_results_dir = os.path.join(args.results_dir, model_folder_name)
-            os.makedirs(model_results_dir, exist_ok=True)
-            
             uni_path = os.path.join(model_results_dir, "delay_permutations_non_constant.json")
             with open(uni_path, 'w') as f:
                 json.dump(all_permutations, f, indent=4)
