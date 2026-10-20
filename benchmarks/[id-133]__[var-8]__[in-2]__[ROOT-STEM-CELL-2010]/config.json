@@ -1,0 +1,151 @@
+{
+    "num_steps": 30,
+    "time_resolution": 1,
+    "initialize_components_false": true,
+    "internal_components": [
+        "v_ARF",
+        "v_AUXIAA",
+        "v_CLEX",
+        "v_JKD",
+        "v_MGP",
+        "v_PLT",
+        "v_SCR",
+        "v_WOX5"
+    ],
+    "external_inputs": [
+        "v_SHR",
+        "v_AUXIN"
+    ],
+    "interactions": [
+        {
+            "src": "v_AUXIAA",
+            "tgt": "v_ARF",
+            "type": -1,
+            "d_min": 3,
+            "d_max": 4,
+            "definite": true
+        },
+        {
+            "src": "v_AUXIN",
+            "tgt": "v_AUXIAA",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        },
+        {
+            "src": "v_SHR",
+            "tgt": "v_CLEX",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": false
+        },
+        {
+            "src": "v_CLEX",
+            "tgt": "v_CLEX",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        },
+        {
+            "src": "v_SHR",
+            "tgt": "v_JKD",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        },
+        {
+            "src": "v_SCR",
+            "tgt": "v_JKD",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        },
+        {
+            "src": "v_SHR",
+            "tgt": "v_MGP",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        },
+        {
+            "src": "v_SCR",
+            "tgt": "v_MGP",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        },
+        {
+            "src": "v_WOX5",
+            "tgt": "v_MGP",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        },
+        {
+            "src": "v_ARF",
+            "tgt": "v_PLT",
+            "type": 1,
+            "d_min": 5,
+            "d_max": 6,
+            "definite": true
+        },
+        {
+            "src": "v_SHR",
+            "tgt": "v_SCR",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        },
+        {
+            "src": "v_SCR",
+            "tgt": "v_SCR",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        },
+        {
+            "src": "v_ARF",
+            "tgt": "v_WOX5",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": false
+        },
+        {
+            "src": "v_SHR",
+            "tgt": "v_WOX5",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        },
+        {
+            "src": "v_SCR",
+            "tgt": "v_WOX5",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": false
+        },
+        {
+            "src": "v_CLEX",
+            "tgt": "v_WOX5",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        }
+    ],
+    "input_constraints": [],
+    "state_constraints": []
+}

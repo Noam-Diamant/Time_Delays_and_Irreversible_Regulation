@@ -1,0 +1,680 @@
+{
+    "num_steps": 12,
+    "time_resolution": 1,
+    "initialize_components_false": false,
+    "internal_components": [
+        "v_AKT1",
+        "v_ATF2",
+        "v_CSK",
+        "v_Ca2p",
+        "v_CagA",
+        "v_CagA_c_Met",
+        "v_Calmodulin",
+        "v_Calpain2",
+        "v_Crk_CrkL",
+        "v_DAG",
+        "v_DOCK180",
+        "v_ELK1",
+        "v_ERK1_2",
+        "v_ETS",
+        "v_FAK",
+        "v_FYN",
+        "v_Gab1",
+        "v_Grb2",
+        "v_HGF_c_Met",
+        "v_IKK",
+        "v_ILK",
+        "v_IP3",
+        "v_IQGAP_1",
+        "v_IkBalpha",
+        "v_JNK",
+        "v_MEK",
+        "v_MKK4",
+        "v_NF_kB",
+        "v_PAK1",
+        "v_PDK1",
+        "v_PI3K",
+        "v_PIP3",
+        "v_PIPKIgamma661",
+        "v_PKCalpha",
+        "v_PLCgamma1",
+        "v_RAC1",
+        "v_Rac1",
+        "v_Raf1",
+        "v_Ras",
+        "v_RasGAP",
+        "v_SHP2",
+        "v_SOS1",
+        "v_STAT3",
+        "v_Shc1",
+        "v_Talin",
+        "v_alpha_catenin_beta_catenin_E_cadherin",
+        "v_c_Cbl",
+        "v_c_JUN",
+        "v_c_Myc",
+        "v_c_SRC"
+    ],
+    "external_inputs": [
+        "v_HGF",
+        "v_PTEN",
+        "v_PIP2",
+        "v_c_Met",
+        "v_H_pylori"
+    ],
+    "interactions": [
+        {
+            "src": "v_ILK",
+            "tgt": "v_AKT1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_PDK1",
+            "tgt": "v_AKT1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_JNK",
+            "tgt": "v_ATF2",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_CagA",
+            "tgt": "v_CSK",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_H_pylori",
+            "tgt": "v_CSK",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_IP3",
+            "tgt": "v_Ca2p",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_FYN",
+            "tgt": "v_CagA",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_c_SRC",
+            "tgt": "v_CagA",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_H_pylori",
+            "tgt": "v_CagA",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_c_Met",
+            "tgt": "v_CagA_c_Met",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_CagA",
+            "tgt": "v_CagA_c_Met",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_Ca2p",
+            "tgt": "v_Calmodulin",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_FAK",
+            "tgt": "v_Calpain2",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_ERK1_2",
+            "tgt": "v_Calpain2",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_CagA",
+            "tgt": "v_Crk_CrkL",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false,
+            "irreversible": true
+        },
+        {
+            "src": "v_Raf1",
+            "tgt": "v_MEK",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_c_Cbl",
+            "tgt": "v_Crk_CrkL",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_Gab1",
+            "tgt": "v_Crk_CrkL",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true,
+            "irreversible": true
+        },
+        {
+            "src": "v_PIP2",
+            "tgt": "v_DAG",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_PLCgamma1",
+            "tgt": "v_DAG",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_Crk_CrkL",
+            "tgt": "v_DOCK180",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_ERK1_2",
+            "tgt": "v_ELK1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_JNK",
+            "tgt": "v_ELK1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_MEK",
+            "tgt": "v_ERK1_2",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_ERK1_2",
+            "tgt": "v_ETS",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_SHP2",
+            "tgt": "v_FAK",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_CSK",
+            "tgt": "v_FYN",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_HGF_c_Met",
+            "tgt": "v_Gab1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_HGF_c_Met",
+            "tgt": "v_Grb2",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 1,
+            "definite": true
+        },
+        {
+            "src": "v_Shc1",
+            "tgt": "v_Grb2",
+            "type": 1,
+            "d_min": 3,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_HGF",
+            "tgt": "v_HGF_c_Met",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_c_Met",
+            "tgt": "v_HGF_c_Met",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_PAK1",
+            "tgt": "v_IKK",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_PI3K",
+            "tgt": "v_ILK",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_PIP2",
+            "tgt": "v_IP3",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 1,
+            "definite": true
+        },
+        {
+            "src": "v_PLCgamma1",
+            "tgt": "v_IP3",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true,
+            "irreversible": true
+        },
+        {
+            "src": "v_Calmodulin",
+            "tgt": "v_IQGAP_1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_Rac1",
+            "tgt": "v_IQGAP_1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_IKK",
+            "tgt": "v_IkBalpha",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_MKK4",
+            "tgt": "v_JNK",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_PAK1",
+            "tgt": "v_MKK4",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_IkBalpha",
+            "tgt": "v_NF_kB",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true,
+            "irreversible": true
+        },
+        {
+            "src": "v_AKT1",
+            "tgt": "v_PAK1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_Rac1",
+            "tgt": "v_PAK1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_PIP3",
+            "tgt": "v_PDK1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_Gab1",
+            "tgt": "v_PI3K",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_c_Cbl",
+            "tgt": "v_PI3K",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_PI3K",
+            "tgt": "v_PIP3",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_PIP2",
+            "tgt": "v_PIP3",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_PTEN",
+            "tgt": "v_PIP3",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_FAK",
+            "tgt": "v_PIPKIgamma661",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_DAG",
+            "tgt": "v_PKCalpha",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_Ca2p",
+            "tgt": "v_PKCalpha",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_CagA_c_Met",
+            "tgt": "v_PLCgamma1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_Gab1",
+            "tgt": "v_PLCgamma1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_AKT1",
+            "tgt": "v_RAC1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_DOCK180",
+            "tgt": "v_Rac1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_PKCalpha",
+            "tgt": "v_Raf1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_Ras",
+            "tgt": "v_Raf1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_SOS1",
+            "tgt": "v_Ras",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_RasGAP",
+            "tgt": "v_Ras",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_Gab1",
+            "tgt": "v_RasGAP",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_SHP2",
+            "tgt": "v_RasGAP",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_HGF_c_Met",
+            "tgt": "v_SHP2",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_Gab1",
+            "tgt": "v_SHP2",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_CagA",
+            "tgt": "v_SHP2",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_Grb2",
+            "tgt": "v_SOS1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_HGF_c_Met",
+            "tgt": "v_STAT3",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_RAC1",
+            "tgt": "v_STAT3",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_HGF_c_Met",
+            "tgt": "v_Shc1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_PIPKIgamma661",
+            "tgt": "v_Talin",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_IQGAP_1",
+            "tgt": "v_alpha_catenin_beta_catenin_E_cadherin",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_HGF_c_Met",
+            "tgt": "v_c_Cbl",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_JNK",
+            "tgt": "v_c_JUN",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        },
+        {
+            "src": "v_ERK1_2",
+            "tgt": "v_c_Myc",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": false
+        },
+        {
+            "src": "v_CSK",
+            "tgt": "v_c_SRC",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "definite": true
+        }
+    ],
+    "input_constraints": [],
+    "state_constraints": []
+}

@@ -1,0 +1,190 @@
+{
+    "num_steps": 30,
+    "time_resolution": 1,
+    "initialize_components_false": true,
+    "internal_components": [
+        "v_Adenylate_cyclase",
+        "v_COMT",
+        "v_Calcineurin",
+        "v_Calcium",
+        "v_DARPP32",
+        "v_Dopamine",
+        "v_Dopamine_Receptor_1",
+        "v_Dopamine_Receptor_2",
+        "v_Exocytosis",
+        "v_Glutamate_Receptor",
+        "v_Packaging_Proteins",
+        "v_Phospholipase_C",
+        "v_Protein_Kinase_A",
+        "v_Protein_Phosphatase_1"
+    ],
+    "external_inputs": [
+        "v_Glutamate",
+        "v_Tryosine_hydroxylase"
+    ],
+    "interactions": [
+        {
+            "src": "v_Dopamine_Receptor_1",
+            "tgt": "v_Adenylate_cyclase",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true,
+            "irreversible": false
+        },
+        {
+            "src": "v_Dopamine_Receptor_2",
+            "tgt": "v_Adenylate_cyclase",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": false
+        },
+        {
+            "src": "v_Dopamine",
+            "tgt": "v_COMT",
+            "type": 1,
+            "d_min": 3,
+            "d_max": 4,
+            "definite": true
+        },
+        {
+            "src": "v_Calcium",
+            "tgt": "v_Calcineurin",
+            "type": 1,
+            "d_min": 5,
+            "d_max": 6,
+            "definite": true
+        },
+        {
+            "src": "v_Glutamate_Receptor",
+            "tgt": "v_Calcium",
+            "type": 1,
+            "d_min": 2,
+            "d_max": 4,
+            "definite": true
+        },
+        {
+            "src": "v_Phospholipase_C",
+            "tgt": "v_Calcium",
+            "type": 1,
+            "d_min": 5,
+            "d_max": 6,
+            "definite": true
+        },
+        {
+            "src": "v_Protein_Kinase_A",
+            "tgt": "v_DARPP32",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        },
+        {
+            "src": "v_Calcineurin",
+            "tgt": "v_DARPP32",
+            "type": -1,
+            "d_min": 3,
+            "d_max": 4,
+            "definite": true
+        },
+        {
+            "src": "v_Tryosine_hydroxylase",
+            "tgt": "v_Dopamine",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": false
+        },
+        {
+            "src": "v_COMT",
+            "tgt": "v_Dopamine",
+            "type": -1,
+            "d_min": 5,
+            "d_max": 6,
+            "definite": true
+        },
+        {
+            "src": "v_Dopamine",
+            "tgt": "v_Dopamine_Receptor_1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": false
+        },
+        {
+            "src": "v_Dopamine",
+            "tgt": "v_Dopamine_Receptor_2",
+            "type": 1,
+            "d_min": 3,
+            "d_max": 4,
+            "definite": true
+        },
+        {
+            "src": "v_Packaging_Proteins",
+            "tgt": "v_Exocytosis",
+            "type": 1,
+            "d_min": 5,
+            "d_max": 6,
+            "definite": true
+        },
+        {
+            "src": "v_Glutamate",
+            "tgt": "v_Glutamate_Receptor",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": false
+        },
+        {
+            "src": "v_Protein_Kinase_A",
+            "tgt": "v_Glutamate_Receptor",
+            "type": 1,
+            "d_min": 3,
+            "d_max": 4,
+            "definite": true
+        },
+        {
+            "src": "v_Protein_Phosphatase_1",
+            "tgt": "v_Glutamate_Receptor",
+            "type": -1,
+            "d_min": 5,
+            "d_max": 6,
+            "definite": true
+        },
+        {
+            "src": "v_Glutamate_Receptor",
+            "tgt": "v_Packaging_Proteins",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        },
+        {
+            "src": "v_Dopamine_Receptor_2",
+            "tgt": "v_Phospholipase_C",
+            "type": 1,
+            "d_min": 3,
+            "d_max": 4,
+            "definite": false
+        },
+        {
+            "src": "v_Adenylate_cyclase",
+            "tgt": "v_Protein_Kinase_A",
+            "type": 1,
+            "d_min": 5,
+            "d_max": 6,
+            "definite": false
+        },
+        {
+            "src": "v_DARPP32",
+            "tgt": "v_Protein_Phosphatase_1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 2,
+            "definite": true
+        }
+    ],
+    "input_constraints": [],
+    "state_constraints": []
+}

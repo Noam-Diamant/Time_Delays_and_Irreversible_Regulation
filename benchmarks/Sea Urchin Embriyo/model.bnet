@@ -1,0 +1,462 @@
+targets, factors
+
+# ==============================================================================
+# ALX1
+# ==============================================================================
+alx1_skel, ets1_skel & ~hesc_skel
+alx1_v2meso, ets1_v2meso & ~hesc_v2meso
+alx1_v2endo, ets1_v2endo & ~hesc_v2endo
+alx1_v1, ets1_v1 & ~hesc_v1
+
+# ==============================================================================
+# BLIMP1B (and modules)
+# ==============================================================================
+blimp1b_Mod1_skel, (j_tcf_ModH_skel | j_tcf_ModL_skel) & otx_skel
+blimp1b_Mod1_v2meso, (j_tcf_ModH_v2meso | j_tcf_ModL_v2meso) & otx_v2meso
+blimp1b_Mod1_v2endo, (j_tcf_ModH_v2endo | j_tcf_ModL_v2endo) & otx_v2endo
+blimp1b_Mod1_v1, (j_tcf_ModH_v1 | j_tcf_ModL_v1) & otx_v1
+
+blimp1b_Mod2_skel, hox11_13b_ModH_skel & j_tcf_ModH_skel
+blimp1b_Mod2_v2meso, hox11_13b_ModH_v2meso & j_tcf_ModH_v2meso
+blimp1b_Mod2_v2endo, hox11_13b_ModH_v2endo & j_tcf_ModH_v2endo
+blimp1b_Mod2_v1, hox11_13b_ModH_v1 & j_tcf_ModH_v1
+
+blimp1b_Mod3_skel, j_v2_skel
+blimp1b_Mod3_v2meso, j_v2_v2meso
+blimp1b_Mod3_v2endo, j_v2_v2endo
+blimp1b_Mod3_v1, j_v2_v1
+
+blimp1b_skel, blimp1b_Mod1_skel | blimp1b_Mod2_skel | blimp1b_Mod3_skel
+blimp1b_v2meso, blimp1b_Mod1_v2meso | blimp1b_Mod2_v2meso | blimp1b_Mod3_v2meso
+blimp1b_v2endo, blimp1b_Mod1_v2endo | blimp1b_Mod2_v2endo | blimp1b_Mod3_v2endo
+blimp1b_v1, blimp1b_Mod1_v1 | blimp1b_Mod2_v1 | blimp1b_Mod3_v1
+
+# ==============================================================================
+# BRA
+# ==============================================================================
+bra_skel, hox11_13b_skel & j_tcf_skel & otx_skel
+bra_v2meso, hox11_13b_v2meso & j_tcf_v2meso & otx_v2meso
+bra_v2endo, hox11_13b_v2endo & j_tcf_v2endo & otx_v2endo
+bra_v1, hox11_13b_v1 & j_tcf_v1 & otx_v1
+
+# ==============================================================================
+# BRN1/2/4
+# ==============================================================================
+brn1_2_4_skel, otx_skel & blimp1b_skel & gatae_skel
+brn1_2_4_v2meso, otx_v2meso & blimp1b_v2meso & gatae_v2meso
+brn1_2_4_v2endo, otx_v2endo & blimp1b_v2endo & gatae_v2endo
+brn1_2_4_v1, otx_v1 & blimp1b_v1 & gatae_v1
+
+# ==============================================================================
+# DELTA (and modules)
+# ==============================================================================
+delta_ModA_skel, runx_skel & ~hesc_skel
+delta_ModA_v2meso, runx_v2meso & ~hesc_v2meso
+delta_ModA_v2endo, runx_v2endo & ~hesc_v2endo
+delta_ModA_v1, runx_v1 & ~hesc_v1
+
+delta_ModR11_skel, ets1_skel
+delta_ModR11_v2meso, ets1_v2meso
+delta_ModR11_v2endo, ets1_v2endo
+delta_ModR11_v1, ets1_v1
+
+delta_skel, (delta_ModA_skel | delta_ModR11_skel) & ~hesc_skel
+delta_v2meso, (delta_ModA_v2meso | delta_ModR11_v2meso) & ~hesc_v2meso
+delta_v2endo, (delta_ModA_v2endo | delta_ModR11_v2endo) & ~hesc_v2endo
+delta_v1, (delta_ModA_v1 | delta_ModR11_v1) & ~hesc_v1
+
+# ==============================================================================
+# DRI
+# ==============================================================================
+dri_skel, alx1_skel & ets1_skel
+dri_v2meso, alx1_v2meso & ets1_v2meso
+dri_v2endo, alx1_v2endo & ets1_v2endo
+dri_v1, alx1_v1 & ets1_v1
+
+# ==============================================================================
+# ERG (and temporary node)
+# ==============================================================================
+temp_ets1_and_tbr_skel, ets1_skel & tbr_skel
+temp_ets1_and_tbr_v2meso, ets1_v2meso & tbr_v2meso
+temp_ets1_and_tbr_v2endo, ets1_v2endo & tbr_v2endo
+temp_ets1_and_tbr_v1, ets1_v1 & tbr_v1
+
+erg_skel, temp_ets1_and_tbr_skel | hex_skel
+erg_v2meso, temp_ets1_and_tbr_v2meso | hex_v2meso
+erg_v2endo, temp_ets1_and_tbr_v2endo | hex_v2endo
+erg_v1, temp_ets1_and_tbr_v1 | hex_v1
+
+# ==============================================================================
+# ETS1
+# ==============================================================================
+ets1_skel, u1_skel & ~hesc_skel
+ets1_v2meso, u1_v2meso & ~hesc_v2meso
+ets1_v2endo, u1_v2endo & ~hesc_v2endo
+ets1_v1, u1_v1 & ~hesc_v1
+
+# ==============================================================================
+# EVE (and shutoff sensor)
+# ==============================================================================
+eve_shutoff_sensor_skel, hox11_13b_ModH_skel & eve_skel
+eve_shutoff_sensor_v2meso, hox11_13b_ModH_v2meso & eve_v2meso
+eve_shutoff_sensor_v2endo, hox11_13b_ModH_v2endo & eve_v2endo
+eve_shutoff_sensor_v1, hox11_13b_ModH_v1 & eve_v1
+
+eve_skel, j_tcf_skel & ~eve_shutoff_sensor_skel
+eve_v2meso, j_tcf_v2meso & ~eve_shutoff_sensor_v2meso
+eve_v2endo, j_tcf_v2endo & ~eve_shutoff_sensor_v2endo
+eve_v1, j_tcf_v1 & ~eve_shutoff_sensor_v1
+
+# ==============================================================================
+# FOXA (and modules)
+# ==============================================================================
+foxa_Mod1_skel, j_tcf_ModH_skel | j_suh_skel
+foxa_Mod1_v2meso, j_tcf_ModH_v2meso | j_suh_v2meso
+foxa_Mod1_v2endo, j_tcf_ModH_v2endo | j_suh_v2endo
+foxa_Mod1_v1, j_tcf_ModH_v1 | j_suh_v1
+
+foxa_Mod2_skel, j_tcf_ModH_skel & hox11_13b_ModH_skel & otx_skel
+foxa_Mod2_v2meso, j_tcf_ModH_v2meso & hox11_13b_ModH_v2meso & otx_v2meso
+foxa_Mod2_v2endo, j_tcf_ModH_v2endo & hox11_13b_ModH_v2endo & otx_v2endo
+foxa_Mod2_v1, j_tcf_ModH_v1 & hox11_13b_ModH_v1 & otx_v1
+
+foxa_skel, foxa_Mod1_skel | foxa_Mod2_skel | foxa_Mod3_skel
+foxa_v2meso, foxa_Mod1_v2meso | foxa_Mod2_v2meso | foxa_Mod3_v2meso
+foxa_v2endo, foxa_Mod1_v2endo | foxa_Mod2_v2endo | foxa_Mod3_v2endo
+foxa_v1, foxa_Mod1_v1 | foxa_Mod2_v1 | foxa_Mod3_v1
+
+# ==============================================================================
+# FOXB
+# ==============================================================================
+foxb_skel, alx1_skel & dri_skel & ets1_skel & tbr_skel
+foxb_v2meso, alx1_v2meso & dri_v2meso & ets1_v2meso & tbr_v2meso
+foxb_v2endo, alx1_v2endo & dri_v2endo & ets1_v2endo & tbr_v2endo
+foxb_v1, alx1_v1 & dri_v1 & ets1_v1 & tbr_v1
+
+# ==============================================================================
+# FOXN2/3
+# ==============================================================================
+foxn2_3_skel, tbr_skel
+foxn2_3_v2meso, tbr_v2meso
+foxn2_3_v2endo, tbr_v2endo
+foxn2_3_v1, tbr_v1
+
+# ==============================================================================
+# FOXO
+# ==============================================================================
+foxo_skel, tgif_skel & erg_skel
+foxo_v2meso, tgif_v2meso & erg_v2meso
+foxo_v2endo, tgif_v2endo & erg_v2endo
+foxo_v1, tgif_v1 & erg_v1
+
+# ==============================================================================
+# GATAE
+# ==============================================================================
+gatae_skel, (otx_skel & j_suh_skel & gcm_skel) | (hox11_13b_ModH_skel & j_v2_skel & otx_skel)
+gatae_v2meso, (otx_v2meso & j_suh_v2meso & gcm_v2meso) | (hox11_13b_ModH_v2meso & j_v2_v2meso & otx_v2meso)
+gatae_v2endo, (otx_v2endo & j_suh_v2endo & gcm_v2endo) | (hox11_13b_ModH_v2endo & j_v2_v2endo & otx_v2endo)
+gatae_v1, (otx_v1 & j_suh_v1 & gcm_v1) | (hox11_13b_ModH_v1 & j_v2_v1 & otx_v1)
+
+# ==============================================================================
+# GCM (and modules)
+# ==============================================================================
+gcm_ModE_skel, j_suh_skel & ~alx1_skel
+gcm_ModE_v2meso, j_suh_v2meso & ~alx1_v2meso
+gcm_ModE_v2endo, j_suh_v2endo & ~alx1_v2endo
+gcm_ModE_v1, j_suh_v1 & ~alx1_v1
+
+gcm_ModG_skel, gcm_skel & ~foxa_skel
+gcm_ModG_v2meso, gcm_v2meso & ~foxa_v2meso
+gcm_ModG_v2endo, gcm_v2endo & ~foxa_v2endo
+gcm_ModG_v1, gcm_v1 & ~foxa_v1
+
+gcm_skel, gcm_ModE_skel | gcm_ModG_skel
+gcm_v2meso, gcm_ModE_v2meso | gcm_ModG_v2meso
+gcm_v2endo, gcm_ModE_v2endo | gcm_ModG_v2endo
+gcm_v1, gcm_ModE_v1 | gcm_ModG_v1
+
+# ==============================================================================
+# GENEX
+# ==============================================================================
+genex_skel, j_suh_skel
+genex_v2meso, j_suh_v2meso
+genex_v2endo, j_suh_v2endo
+genex_v1, j_suh_v1
+
+# ==============================================================================
+# HESC
+# ==============================================================================
+hesc_skel, (u1_skel | j_suh_skel) & ~pmar1_skel
+hesc_v2meso, (u1_v2meso | j_suh_v2meso) & ~pmar1_v2meso
+hesc_v2endo, (u1_v2endo | j_suh_v2endo) & ~pmar1_v2endo
+hesc_v1, (u1_v1 | j_suh_v1) & ~pmar1_v1
+
+# ==============================================================================
+# HEX (and temporary node)
+# ==============================================================================
+temp_hex_ets1_or_tgif_skel, ets1_skel | tgif_skel
+temp_hex_ets1_or_tgif_v2meso, ets1_v2meso | tgif_v2meso
+temp_hex_ets1_or_tgif_v2endo, ets1_v2endo | tgif_v2endo
+temp_hex_ets1_or_tgif_v1, ets1_v1 | tgif_v1
+
+hex_skel, erg_skel & temp_hex_ets1_or_tgif_skel
+hex_v2meso, erg_v2meso & temp_hex_ets1_or_tgif_v2meso
+hex_v2endo, erg_v2endo & temp_hex_ets1_or_tgif_v2endo
+hex_v1, erg_v1 & temp_hex_ets1_or_tgif_v1
+
+# ==============================================================================
+# HH
+# ==============================================================================
+hh_skel, dac_skel & foxa_skel & tgif_skel & otx_skel
+hh_v2meso, dac_v2meso & foxa_v2meso & tgif_v2meso & otx_v2meso
+hh_v2endo, dac_v2endo & foxa_v2endo & tgif_v2endo & otx_v2endo
+hh_v1, dac_v1 & foxa_v1 & tgif_v1 & otx_v1
+
+# ==============================================================================
+# HNF1
+# ==============================================================================
+hnf1_skel, bra_skel & eve_skel
+hnf1_v2meso, bra_v2meso & eve_v2meso
+hnf1_v2endo, bra_v2endo & eve_v2endo
+hnf1_v1, bra_v1 & eve_v1
+
+# ==============================================================================
+# HOX11/13B (and modules)
+# ==============================================================================
+hox11_13b_ModH_skel, j_tcf_ModH_skel & ~j_wnt16_skel
+hox11_13b_ModH_v2meso, j_tcf_ModH_v2meso & ~j_wnt16_v2meso
+hox11_13b_ModH_v2endo, j_tcf_ModH_v2endo & ~j_wnt16_v2endo
+hox11_13b_ModH_v1, j_tcf_ModH_v1 & ~j_wnt16_v1
+
+hox11_13b_ModW_skel, eve_skel & j_wnt16_skel
+hox11_13b_ModW_v2meso, eve_v2meso & j_wnt16_v2meso
+hox11_13b_ModW_v2endo, eve_v2endo & j_wnt16_v2endo
+hox11_13b_ModW_v1, eve_v1 & j_wnt16_v1
+
+hox11_13b_skel, hox11_13b_ModH_skel | hox11_13b_ModW_skel
+hox11_13b_v2meso, hox11_13b_ModH_v2meso | hox11_13b_ModW_v2meso
+hox11_13b_v2endo, hox11_13b_ModH_v2endo | hox11_13b_ModW_v2endo
+hox11_13b_v1, hox11_13b_ModH_v1 | hox11_13b_ModW_v1
+
+# ==============================================================================
+# J(SUH) (Spatial Logic OR Gates)
+# ==============================================================================
+j_suh_skel, delta_v2meso | delta_v2endo | delta_v1
+j_suh_v2meso, delta_skel | delta_v2endo
+j_suh_v2endo, delta_skel | delta_v2meso | delta_v1
+j_suh_v1, delta_skel | delta_v2endo
+
+# ==============================================================================
+# J(TCF) (and modules)
+# ==============================================================================
+j_tcf_ModH_skel, n_b_cat_ModH_skel
+j_tcf_ModH_v2meso, n_b_cat_ModH_v2meso
+j_tcf_ModH_v2endo, n_b_cat_ModH_v2endo
+j_tcf_ModH_v1, n_b_cat_ModH_v1
+
+j_tcf_ModL_skel, n_b_cat_ModL_skel
+j_tcf_ModL_v2meso, n_b_cat_ModL_v2meso
+j_tcf_ModL_v2endo, n_b_cat_ModL_v2endo
+j_tcf_ModL_v1, n_b_cat_ModL_v1
+
+j_tcf_ModV1_skel, n_b_cat_ModV1E_skel
+j_tcf_ModV1_v2meso, n_b_cat_ModV1E_v2meso
+j_tcf_ModV1_v2endo, n_b_cat_ModV1E_v2endo
+j_tcf_ModV1_v1, n_b_cat_ModV1E_v1
+
+j_tcf_skel, j_tcf_ModH_skel | j_tcf_ModL_skel | j_tcf_ModV1_skel
+j_tcf_v2meso, j_tcf_ModH_v2meso | j_tcf_ModL_v2meso | j_tcf_ModV1_v2meso
+j_tcf_v2endo, j_tcf_ModH_v2endo | j_tcf_ModL_v2endo | j_tcf_ModV1_v2endo
+j_tcf_v1, j_tcf_ModH_v1 | j_tcf_ModL_v1 | j_tcf_ModV1_v1
+
+# ==============================================================================
+# J(V2) (Spatial Logic OR Gates)
+# ==============================================================================
+j_v2_skel, signalv2_v2meso | signalv2_v2endo | signalv2_v1
+j_v2_v2meso, signalv2_skel | signalv2_v2endo
+j_v2_v2endo, signalv2_skel | signalv2_v2meso | signalv2_v1
+j_v2_v1, signalv2_skel | signalv2_v2endo
+
+# ==============================================================================
+# J(WNT16) (Spatial Logic OR Gates)
+# ==============================================================================
+j_wnt16_skel, wnt16_skel | wnt16_v2meso | wnt16_v2endo | wnt16_v1
+j_wnt16_v2meso, wnt16_v2meso | wnt16_skel | wnt16_v2endo
+j_wnt16_v2endo, wnt16_v2endo | wnt16_skel | wnt16_v2meso | wnt16_v1
+j_wnt16_v1, wnt16_v1 | wnt16_skel | wnt16_v2endo
+
+# ==============================================================================
+# MYC
+# ==============================================================================
+myc_skel, myc_ModV2M_skel | myc_ModV2E_skel
+myc_v2meso, myc_ModV2M_v2meso | myc_ModV2E_v2meso
+myc_v2endo, myc_ModV2M_v2endo | myc_ModV2E_v2endo
+myc_v1, myc_ModV2M_v1 | myc_ModV2E_v1
+
+# ==============================================================================
+# N_B-CAT (and modules)
+# ==============================================================================
+n_b_cat_ModL_skel, mat_n_b_cat_ModSkel_skel
+n_b_cat_ModL_v2meso, mat_n_b_cat_ModV2M_v2meso
+n_b_cat_ModL_v2endo, mat_n_b_cat_ModV2E_v2endo
+n_b_cat_ModL_v1, mat_n_b_cat_ModV1E_v1
+
+# ModV1E is ONLY active in V1 Endoderm
+n_b_cat_ModV1E_skel, False
+n_b_cat_ModV1E_v2meso, False
+n_b_cat_ModV1E_v2endo, False
+n_b_cat_ModV1E_v1, ~genex_v1
+
+# ModH is ONLY active in V2 Mesoderm and V2 Endoderm
+n_b_cat_ModH_skel, False
+n_b_cat_ModH_v2meso, (wnt8_v2meso | wnt8_skel | wnt8_v2endo) & ~genex_v2meso
+n_b_cat_ModH_v2endo, (wnt8_v2endo | wnt8_skel | wnt8_v2meso | wnt8_v1) & ~genex_v2endo
+n_b_cat_ModH_v1, False
+
+# Main n_b_cat nodes combine the modules
+n_b_cat_skel, n_b_cat_ModL_skel | n_b_cat_ModV1E_skel | n_b_cat_ModH_skel
+n_b_cat_v2meso, n_b_cat_ModL_v2meso | n_b_cat_ModV1E_v2meso | n_b_cat_ModH_v2meso
+n_b_cat_v2endo, n_b_cat_ModL_v2endo | n_b_cat_ModV1E_v2endo | n_b_cat_ModH_v2endo
+n_b_cat_v1, n_b_cat_ModL_v1 | n_b_cat_ModV1E_v1 | n_b_cat_ModH_v1
+
+# ==============================================================================
+# NRL (and temporary node)
+# ==============================================================================
+temp_nrl_foxn23_or_tgif_skel, foxn2_3_skel | tgif_skel
+temp_nrl_foxn23_or_tgif_v2meso, foxn2_3_v2meso | tgif_v2meso
+temp_nrl_foxn23_or_tgif_v2endo, foxn2_3_v2endo | tgif_v2endo
+temp_nrl_foxn23_or_tgif_v1, foxn2_3_v1 | tgif_v1
+
+nrl_skel, temp_nrl_foxn23_or_tgif_skel & tbr_skel & ~hesc_skel
+nrl_v2meso, temp_nrl_foxn23_or_tgif_v2meso & tbr_v2meso & ~hesc_v2meso
+nrl_v2endo, temp_nrl_foxn23_or_tgif_v2endo & tbr_v2endo & ~hesc_v2endo
+nrl_v1, temp_nrl_foxn23_or_tgif_v1 & tbr_v1 & ~hesc_v1
+
+# ==============================================================================
+# OTX
+# ==============================================================================
+otx_skel, otx_alpha_skel | otx_beta_skel
+otx_v2meso, otx_alpha_v2meso | otx_beta_v2meso
+otx_v2endo, otx_alpha_v2endo | otx_beta_v2endo
+otx_v1, otx_alpha_v1 | otx_beta_v1
+
+# ==============================================================================
+# OTX-ALPHA
+# ==============================================================================
+otx_alpha_skel, otx_alpha_ModSkel_skel | otx_alpha_ModV2_skel | otx_alpha_ModV1E_skel
+otx_alpha_v2meso, otx_alpha_ModSkel_v2meso | otx_alpha_ModV2_v2meso | otx_alpha_ModV1E_v2meso
+otx_alpha_v2endo, otx_alpha_ModSkel_v2endo | otx_alpha_ModV2_v2endo | otx_alpha_ModV1E_v2endo
+otx_alpha_v1, otx_alpha_ModSkel_v1 | otx_alpha_ModV2_v1 | otx_alpha_ModV1E_v1
+
+# ==============================================================================
+# OTX-BETA (and temporary node)
+# ==============================================================================
+temp_otx_beta_gatae_and_otx_alpha_skel, gatae_skel & otx_alpha_skel
+temp_otx_beta_gatae_and_otx_alpha_v2meso, gatae_v2meso & otx_alpha_v2meso
+temp_otx_beta_gatae_and_otx_alpha_v2endo, gatae_v2endo & otx_alpha_v2endo
+temp_otx_beta_gatae_and_otx_alpha_v1, gatae_v1 & otx_alpha_v1
+
+otx_beta_skel, temp_otx_beta_gatae_and_otx_alpha_skel | blimp1b_skel | bra_skel
+otx_beta_v2meso, temp_otx_beta_gatae_and_otx_alpha_v2meso | blimp1b_v2meso | bra_v2meso
+otx_beta_v2endo, temp_otx_beta_gatae_and_otx_alpha_v2endo | blimp1b_v2endo | bra_v2endo
+otx_beta_v1, temp_otx_beta_gatae_and_otx_alpha_v1 | blimp1b_v1 | bra_v1
+
+# ==============================================================================
+# PMAR1
+# ==============================================================================
+pmar1_skel, (j_tcf_ModH_skel | j_tcf_ModL_skel) & otx_skel & ~hesc_skel
+pmar1_v2meso, (j_tcf_ModH_v2meso | j_tcf_ModL_v2meso) & otx_v2meso & ~hesc_v2meso
+pmar1_v2endo, (j_tcf_ModH_v2endo | j_tcf_ModL_v2endo) & otx_v2endo & ~hesc_v2endo
+pmar1_v1, (j_tcf_ModH_v1 | j_tcf_ModL_v1) & otx_v1 & ~hesc_v1
+
+# ==============================================================================
+# SIGNALV2
+# ==============================================================================
+signalv2_skel, eve_skel & hox11_13b_skel
+signalv2_v2meso, eve_v2meso & hox11_13b_v2meso
+signalv2_v2endo, eve_v2endo & hox11_13b_v2endo
+signalv2_v1, eve_v1 & hox11_13b_v1
+
+# ==============================================================================
+# TBR (and modules)
+# ==============================================================================
+tbr_ModA_skel, ets1_skel & ~hesc_skel
+tbr_ModA_v2meso, ets1_v2meso & ~hesc_v2meso
+tbr_ModA_v2endo, ets1_v2endo & ~hesc_v2endo
+tbr_ModA_v1, ets1_v1 & ~hesc_v1
+
+tbr_ModG2_skel, ets1_skel & ~erg_skel
+tbr_ModG2_v2meso, ets1_v2meso & ~erg_v2meso
+tbr_ModG2_v2endo, ets1_v2endo & ~erg_v2endo
+tbr_ModG2_v1, ets1_v1 & ~erg_v1
+
+tbr_skel, (tbr_ModA_skel | tbr_ModG2_skel) & ~hesc_skel
+tbr_v2meso, (tbr_ModA_v2meso | tbr_ModG2_v2meso) & ~hesc_v2meso
+tbr_v2endo, (tbr_ModA_v2endo | tbr_ModG2_v2endo) & ~hesc_v2endo
+tbr_v1, (tbr_ModA_v1 | tbr_ModG2_v1) & ~hesc_v1
+
+# ==============================================================================
+# TEL
+# ==============================================================================
+tel_skel, u1_skel & ~hesc_skel
+tel_v2meso, u1_v2meso & ~hesc_v2meso
+tel_v2endo, u1_v2endo & ~hesc_v2endo
+tel_v1, u1_v1 & ~hesc_v1
+
+# ==============================================================================
+# TGIF (and modules)
+# ==============================================================================
+tgif_ModE_skel, ets1_skel & hex_skel & erg_skel
+tgif_ModE_v2meso, ets1_v2meso & hex_v2meso & erg_v2meso
+tgif_ModE_v2endo, ets1_v2endo & hex_v2endo & erg_v2endo
+tgif_ModE_v1, ets1_v1 & hex_v1 & erg_v1
+
+tgif_ModL_skel, blimp1b_skel & myc_skel
+tgif_ModL_v2meso, blimp1b_v2meso & myc_v2meso
+tgif_ModL_v2endo, blimp1b_v2endo & myc_v2endo
+tgif_ModL_v1, blimp1b_v1 & myc_v1
+
+tgif_skel, tgif_ModE_skel | tgif_ModL_skel
+tgif_v2meso, tgif_ModE_v2meso | tgif_ModL_v2meso
+tgif_v2endo, tgif_ModE_v2endo | tgif_ModL_v2endo
+tgif_v1, tgif_ModE_v1 | tgif_ModL_v1
+
+# ==============================================================================
+# U1
+# ==============================================================================
+u1_skel, pmar1_skel
+u1_v2meso, pmar1_v2meso
+u1_v2endo, pmar1_v2endo
+u1_v1, pmar1_v1
+
+# ==============================================================================
+# VEGFR
+# ==============================================================================
+vegfr_skel, alx1_skel & dri_skel & hex_skel & ets1_skel
+vegfr_v2meso, alx1_v2meso & dri_v2meso & hex_v2meso & ets1_v2meso
+vegfr_v2endo, alx1_v2endo & dri_v2endo & hex_v2endo & ets1_v2endo
+vegfr_v1, alx1_v1 & dri_v1 & hex_v1 & ets1_v1
+
+# ==============================================================================
+# WNT16
+# ==============================================================================
+wnt16_skel, hox11_13b_skel & bra_skel
+wnt16_v2meso, hox11_13b_v2meso & bra_v2meso
+wnt16_v2endo, hox11_13b_v2endo & bra_v2endo
+wnt16_v1, hox11_13b_v1 & bra_v1
+
+# ==============================================================================
+# WNT8
+# ==============================================================================
+wnt8_skel, j_tcf_skel & ~j_tcf_ModH_skel
+wnt8_v2meso, j_tcf_v2meso & ~j_tcf_ModH_v2meso
+wnt8_v2endo, j_tcf_v2endo & ~j_tcf_ModH_v2endo
+wnt8_v1, j_tcf_v1 & ~j_tcf_ModH_v1
+
+# ==============================================================================
+# Z13/KRL
+# ==============================================================================
+z13_krl_skel, (j_tcf_ModH_skel | j_tcf_ModL_skel) & ~(foxa_skel & gatae_skel & dac_skel & blimp1b_skel & myc_skel)
+z13_krl_v2meso, (j_tcf_ModH_v2meso | j_tcf_ModL_v2meso) & ~(foxa_v2meso & gatae_v2meso & dac_v2meso & blimp1b_v2meso & myc_v2meso)
+z13_krl_v2endo, (j_tcf_ModH_v2endo | j_tcf_ModL_v2endo) & ~(foxa_v2endo & gatae_v2endo & dac_v2endo & blimp1b_v2endo & myc_v2endo)
+z13_krl_v1, (j_tcf_ModH_v1 | j_tcf_ModL_v1) & ~(foxa_v1 & gatae_v1 & dac_v1 & blimp1b_v1 & myc_v1)

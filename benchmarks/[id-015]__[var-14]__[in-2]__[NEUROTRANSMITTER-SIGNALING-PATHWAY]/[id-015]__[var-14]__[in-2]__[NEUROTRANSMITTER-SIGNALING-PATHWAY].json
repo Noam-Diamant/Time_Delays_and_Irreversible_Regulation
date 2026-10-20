@@ -1,0 +1,28 @@
+{
+    "model_id": "[id-008]__[var-25]__[in-3]__[DEATH-RECEPTOR-SIGNALING]",
+    "observations": {
+        "time_series_trajectories": [
+            [
+                {"v_Tryosine_hydroxylase": 1, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 1, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 1, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 1, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 1, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 0, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null},
+                {"v_Tryosine_hydroxylase": 0, "v_Glutamate": 0, "v_Dopamine": 0, "v_Dopamine_Receptor_2": 0, "v_Phospholipase_C": 0, "v_Calcium": 0, "v_Calcineurin": 1, "v_Glutamate_Receptor": 0, "v_Dopamine_Receptor_1": null, "v_COMT": null}
+            ]
+        ],
+        "steady_states": []
+    }
+}

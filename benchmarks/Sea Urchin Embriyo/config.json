@@ -1,0 +1,7167 @@
+{
+    "num_steps": 30,
+    "internal_components": [
+        "alx1_skel",
+        "alx1_v2meso",
+        "alx1_v2endo",
+        "alx1_v1",
+        "blimp1b_Mod1_skel",
+        "blimp1b_Mod1_v2meso",
+        "blimp1b_Mod1_v2endo",
+        "blimp1b_Mod1_v1",
+        "blimp1b_Mod2_skel",
+        "blimp1b_Mod2_v2meso",
+        "blimp1b_Mod2_v2endo",
+        "blimp1b_Mod2_v1",
+        "blimp1b_Mod3_skel",
+        "blimp1b_Mod3_v2meso",
+        "blimp1b_Mod3_v2endo",
+        "blimp1b_Mod3_v1",
+        "blimp1b_skel",
+        "blimp1b_v2meso",
+        "blimp1b_v2endo",
+        "blimp1b_v1",
+        "bra_skel",
+        "bra_v2meso",
+        "bra_v2endo",
+        "bra_v1",
+        "brn1_2_4_skel",
+        "brn1_2_4_v2meso",
+        "brn1_2_4_v2endo",
+        "brn1_2_4_v1",
+        "delta_ModA_skel",
+        "delta_ModA_v2meso",
+        "delta_ModA_v2endo",
+        "delta_ModA_v1",
+        "delta_ModR11_skel",
+        "delta_ModR11_v2meso",
+        "delta_ModR11_v2endo",
+        "delta_ModR11_v1",
+        "delta_skel",
+        "delta_v2meso",
+        "delta_v2endo",
+        "delta_v1",
+        "dri_skel",
+        "dri_v2meso",
+        "dri_v2endo",
+        "dri_v1",
+        "erg_skel",
+        "erg_v2meso",
+        "erg_v2endo",
+        "erg_v1",
+        "temp_ets1_and_tbr_skel",
+        "temp_ets1_and_tbr_v2meso",
+        "temp_ets1_and_tbr_v2endo",
+        "temp_ets1_and_tbr_v1",
+        "ets1_skel",
+        "ets1_v2meso",
+        "ets1_v2endo",
+        "ets1_v1",
+        "eve_shutoff_sensor_skel",
+        "eve_shutoff_sensor_v2meso",
+        "eve_shutoff_sensor_v2endo",
+        "eve_shutoff_sensor_v1",
+        "eve_skel",
+        "eve_v2meso",
+        "eve_v2endo",
+        "eve_v1",
+        "foxa_Mod1_skel",
+        "foxa_Mod1_v2meso",
+        "foxa_Mod1_v2endo",
+        "foxa_Mod1_v1",
+        "foxa_Mod2_skel",
+        "foxa_Mod2_v2meso",
+        "foxa_Mod2_v2endo",
+        "foxa_Mod2_v1",
+        "foxa_skel",
+        "foxa_v2meso",
+        "foxa_v2endo",
+        "foxa_v1",
+        "foxb_skel",
+        "foxb_v2meso",
+        "foxb_v2endo",
+        "foxb_v1",
+        "foxn2_3_skel",
+        "foxn2_3_v2meso",
+        "foxn2_3_v2endo",
+        "foxn2_3_v1",
+        "foxo_skel",
+        "foxo_v2meso",
+        "foxo_v2endo",
+        "foxo_v1",
+        "gatae_skel",
+        "gatae_v2meso",
+        "gatae_v2endo",
+        "gatae_v1",
+        "gcm_ModE_skel",
+        "gcm_ModE_v2meso",
+        "gcm_ModE_v2endo",
+        "gcm_ModE_v1",
+        "gcm_ModG_skel",
+        "gcm_ModG_v2meso",
+        "gcm_ModG_v2endo",
+        "gcm_ModG_v1",
+        "gcm_skel",
+        "gcm_v2meso",
+        "gcm_v2endo",
+        "gcm_v1",
+        "genex_skel",
+        "genex_v2meso",
+        "genex_v2endo",
+        "genex_v1",
+        "hesc_skel",
+        "hesc_v2meso",
+        "hesc_v2endo",
+        "hesc_v1",
+        "temp_hex_ets1_or_tgif_skel",
+        "temp_hex_ets1_or_tgif_v2meso",
+        "temp_hex_ets1_or_tgif_v2endo",
+        "temp_hex_ets1_or_tgif_v1",
+        "hex_skel",
+        "hex_v2meso",
+        "hex_v2endo",
+        "hex_v1",
+        "hh_skel",
+        "hh_v2meso",
+        "hh_v2endo",
+        "hh_v1",
+        "hnf1_skel",
+        "hnf1_v2meso",
+        "hnf1_v2endo",
+        "hnf1_v1",
+        "hox11_13b_ModH_skel",
+        "hox11_13b_ModH_v2meso",
+        "hox11_13b_ModH_v2endo",
+        "hox11_13b_ModH_v1",
+        "hox11_13b_ModW_skel",
+        "hox11_13b_ModW_v2meso",
+        "hox11_13b_ModW_v2endo",
+        "hox11_13b_ModW_v1",
+        "hox11_13b_skel",
+        "hox11_13b_v2meso",
+        "hox11_13b_v2endo",
+        "hox11_13b_v1",
+        "j_suh_skel",
+        "j_suh_v2meso",
+        "j_suh_v2endo",
+        "j_suh_v1",
+        "j_tcf_ModH_skel",
+        "j_tcf_ModH_v2meso",
+        "j_tcf_ModH_v2endo",
+        "j_tcf_ModH_v1",
+        "j_tcf_ModL_skel",
+        "j_tcf_ModL_v2meso",
+        "j_tcf_ModL_v2endo",
+        "j_tcf_ModL_v1",
+        "j_tcf_ModV1_v1",
+        "j_tcf_skel",
+        "j_tcf_v2meso",
+        "j_tcf_v2endo",
+        "j_tcf_v1",
+        "j_v2_skel",
+        "j_v2_v2meso",
+        "j_v2_v2endo",
+        "j_v2_v1",
+        "j_wnt16_skel",
+        "j_wnt16_v2meso",
+        "j_wnt16_v2endo",
+        "j_wnt16_v1",
+        "mat_n_b_cat_skel",
+        "mat_n_b_cat_v2meso",
+        "mat_n_b_cat_v2endo",
+        "mat_n_b_cat_v1",
+        "myc_skel",
+        "myc_v2meso",
+        "myc_v2endo",
+        "myc_v1",
+        "n_b_cat_ModL_skel",
+        "n_b_cat_ModL_v2meso",
+        "n_b_cat_ModL_v2endo",
+        "n_b_cat_ModL_v1",
+        "n_b_cat_ModV1E_v1",
+        "n_b_cat_ModH_skel",
+        "n_b_cat_ModH_v2meso",
+        "n_b_cat_ModH_v2endo",
+        "n_b_cat_ModH_v1",
+        "n_b_cat_skel",
+        "n_b_cat_v2meso",
+        "n_b_cat_v2endo",
+        "n_b_cat_v1",
+        "temp_nrl_foxn23_or_tgif_skel",
+        "temp_nrl_foxn23_or_tgif_v2meso",
+        "temp_nrl_foxn23_or_tgif_v2endo",
+        "temp_nrl_foxn23_or_tgif_v1",
+        "nrl_skel",
+        "nrl_v2meso",
+        "nrl_v2endo",
+        "nrl_v1",
+        "otx_skel",
+        "otx_v2meso",
+        "otx_v2endo",
+        "otx_v1",
+        "otx_alpha_skel",
+        "otx_alpha_v2meso",
+        "otx_alpha_v2endo",
+        "otx_alpha_v1",
+        "temp_otx_beta_gatae_and_otx_alpha_skel",
+        "temp_otx_beta_gatae_and_otx_alpha_v2meso",
+        "temp_otx_beta_gatae_and_otx_alpha_v2endo",
+        "temp_otx_beta_gatae_and_otx_alpha_v1",
+        "otx_beta_skel",
+        "otx_beta_v2meso",
+        "otx_beta_v2endo",
+        "otx_beta_v1",
+        "pmar1_skel",
+        "pmar1_v2meso",
+        "pmar1_v2endo",
+        "pmar1_v1",
+        "signalv2_skel",
+        "signalv2_v2meso",
+        "signalv2_v2endo",
+        "signalv2_v1",
+        "tbr_ModA_skel",
+        "tbr_ModA_v2meso",
+        "tbr_ModA_v2endo",
+        "tbr_ModA_v1",
+        "tbr_ModG2_skel",
+        "tbr_ModG2_v2meso",
+        "tbr_ModG2_v2endo",
+        "tbr_ModG2_v1",
+        "tbr_skel",
+        "tbr_v2meso",
+        "tbr_v2endo",
+        "tbr_v1",
+        "tel_skel",
+        "tel_v2meso",
+        "tel_v2endo",
+        "tel_v1",
+        "tgif_ModE_skel",
+        "tgif_ModE_v2meso",
+        "tgif_ModE_v2endo",
+        "tgif_ModE_v1",
+        "tgif_ModL_skel",
+        "tgif_ModL_v2meso",
+        "tgif_ModL_v2endo",
+        "tgif_ModL_v1",
+        "tgif_skel",
+        "tgif_v2meso",
+        "tgif_v2endo",
+        "tgif_v1",
+        "u1_skel",
+        "u1_v2meso",
+        "u1_v2endo",
+        "u1_v1",
+        "vegfr_skel",
+        "vegfr_v2meso",
+        "vegfr_v2endo",
+        "vegfr_v1",
+        "wnt16_skel",
+        "wnt16_v2meso",
+        "wnt16_v2endo",
+        "wnt16_v1",
+        "wnt8_skel",
+        "wnt8_v2meso",
+        "wnt8_v2endo",
+        "wnt8_v1",
+        "z13_krl_skel",
+        "z13_krl_v2meso",
+        "z13_krl_v2endo",
+        "z13_krl_v1"
+    ],
+    "external_inputs": [
+        "runx_skel",
+        "runx_v1",
+        "runx_v2endo",
+        "runx_v2meso",
+        "notch_v2endo",
+        "notch_skel",
+        "notch_v2meso",
+        "notch_v1",
+        "dac_skel",
+        "dac_v2meso",
+        "dac_v2endo",
+        "dac_v1",
+        "myc_ModV2M_v2meso",
+        "myc_ModV2E_v2endo",
+        "otx_alpha_ModSkel_skel",
+        "otx_alpha_ModV2_v2meso",
+        "otx_alpha_ModV2_v2endo",
+        "otx_alpha_ModV1E_v1",
+        "mat_n_b_cat_ModSkel_skel",
+        "mat_n_b_cat_ModV2E_v2endo",
+        "mat_n_b_cat_ModV1E_v1",
+        "mat_n_b_cat_ModV2M_v2meso",
+        "foxa_Mod3_skel",
+        "foxa_Mod3_v2meso",
+        "foxa_Mod3_v2endo",
+        "foxa_Mod3_v1"
+    ],
+    "initialize_components_false": true,
+    "input_constraints": [
+        {
+            "name": "notch_v2endo",
+            "start": 21,
+            "end": 30
+        },
+        {
+            "name": "notch_skel",
+            "start": 0,
+            "end": 0
+        },
+        {
+            "name": "notch_v2meso",
+            "start": 0,
+            "end": 0
+        },
+        {
+            "name": "notch_v1",
+            "start": 0,
+            "end": 0
+        },
+        {
+            "name": "dac_v2endo",
+            "start": 18,
+            "end": 30
+        },
+        {
+            "name": "dac_skel",
+            "start": 0,
+            "end": 0
+        },
+        {
+            "name": "dac_v2meso",
+            "start": 0,
+            "end": 0
+        },
+        {
+            "name": "dac_v1",
+            "start": 0,
+            "end": 0
+        },
+        {
+            "name": "myc_ModV2M_v2meso",
+            "start": 15,
+            "end": 30
+        },
+        {
+            "name": "myc_ModV2E_v2endo",
+            "start": 15,
+            "end": 30
+        },
+        {
+            "name": "otx_alpha_ModSkel_skel",
+            "start": 5,
+            "end": 23
+        },
+        {
+            "name": "otx_alpha_ModV2_v2meso",
+            "start": 8,
+            "end": 26
+        },
+        {
+            "name": "otx_alpha_ModV2_v2endo",
+            "start": 8,
+            "end": 26
+        },
+        {
+            "name": "otx_alpha_ModV1E_v1",
+            "start": 8,
+            "end": 26
+        },
+        {
+            "name": "mat_n_b_cat_ModSkel_skel",
+            "start": 5,
+            "end": 30
+        },
+        {
+            "name": "mat_n_b_cat_ModV2E_v2endo",
+            "start": 6,
+            "end": 12
+        },
+        {
+            "name": "mat_n_b_cat_ModV1E_v1",
+            "start": 6,
+            "end": 9
+        },
+        {
+            "name": "mat_n_b_cat_ModV2M_v2meso",
+            "start": 6,
+            "end": 12
+        },
+        {
+            "name": "foxa_Mod3_v2endo",
+            "start": 24,
+            "end": 30
+        },
+        {
+            "name": "foxa_Mod3_skel",
+            "start": 0,
+            "end": 0
+        },
+        {
+            "name": "foxa_Mod3_v2meso",
+            "start": 0,
+            "end": 0
+        },
+        {
+            "name": "foxa_Mod3_v1",
+            "start": 0,
+            "end": 0
+        }
+    ],
+    "interactions": [
+        {
+            "src": "ets1_skel",
+            "tgt": "alx1_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_skel",
+            "tgt": "alx1_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2meso",
+            "tgt": "alx1_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2meso",
+            "tgt": "alx1_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2endo",
+            "tgt": "alx1_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2endo",
+            "tgt": "alx1_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v1",
+            "tgt": "alx1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v1",
+            "tgt": "alx1_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_skel",
+            "tgt": "dri_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_skel",
+            "tgt": "dri_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_v2meso",
+            "tgt": "dri_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2meso",
+            "tgt": "dri_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_v2endo",
+            "tgt": "dri_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2endo",
+            "tgt": "dri_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_v1",
+            "tgt": "dri_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v1",
+            "tgt": "dri_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_skel",
+            "tgt": "temp_ets1_and_tbr_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_skel",
+            "tgt": "temp_ets1_and_tbr_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_ets1_and_tbr_skel",
+            "tgt": "erg_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hex_skel",
+            "tgt": "erg_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2meso",
+            "tgt": "temp_ets1_and_tbr_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_v2meso",
+            "tgt": "temp_ets1_and_tbr_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_ets1_and_tbr_v2meso",
+            "tgt": "erg_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hex_v2meso",
+            "tgt": "erg_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2endo",
+            "tgt": "temp_ets1_and_tbr_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_v2endo",
+            "tgt": "temp_ets1_and_tbr_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_ets1_and_tbr_v2endo",
+            "tgt": "erg_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hex_v2endo",
+            "tgt": "erg_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v1",
+            "tgt": "temp_ets1_and_tbr_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_v1",
+            "tgt": "temp_ets1_and_tbr_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_ets1_and_tbr_v1",
+            "tgt": "erg_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hex_v1",
+            "tgt": "erg_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "u1_skel",
+            "tgt": "ets1_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_skel",
+            "tgt": "ets1_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "u1_v2meso",
+            "tgt": "ets1_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2meso",
+            "tgt": "ets1_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "u1_v2endo",
+            "tgt": "ets1_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2endo",
+            "tgt": "ets1_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "u1_v1",
+            "tgt": "ets1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v1",
+            "tgt": "ets1_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_skel",
+            "tgt": "foxb_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dri_skel",
+            "tgt": "foxb_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_skel",
+            "tgt": "foxb_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_skel",
+            "tgt": "foxb_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_v2meso",
+            "tgt": "foxb_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dri_v2meso",
+            "tgt": "foxb_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2meso",
+            "tgt": "foxb_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_v2meso",
+            "tgt": "foxb_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_v2endo",
+            "tgt": "foxb_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dri_v2endo",
+            "tgt": "foxb_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2endo",
+            "tgt": "foxb_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_v2endo",
+            "tgt": "foxb_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_v1",
+            "tgt": "foxb_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dri_v1",
+            "tgt": "foxb_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v1",
+            "tgt": "foxb_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_v1",
+            "tgt": "foxb_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_skel",
+            "tgt": "foxn2_3_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_v2meso",
+            "tgt": "foxn2_3_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_v2endo",
+            "tgt": "foxn2_3_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_v1",
+            "tgt": "foxn2_3_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_skel",
+            "tgt": "foxo_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_skel",
+            "tgt": "foxo_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_v2meso",
+            "tgt": "foxo_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_v2meso",
+            "tgt": "foxo_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_v2endo",
+            "tgt": "foxo_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_v2endo",
+            "tgt": "foxo_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_v1",
+            "tgt": "foxo_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_v1",
+            "tgt": "foxo_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_skel",
+            "tgt": "genex_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                16,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v2meso",
+            "tgt": "genex_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                16,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v2endo",
+            "tgt": "genex_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                16,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v1",
+            "tgt": "genex_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                16,
+                30
+            ]
+        },
+        {
+            "src": "dac_skel",
+            "tgt": "hh_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_skel",
+            "tgt": "hh_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_skel",
+            "tgt": "hh_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_skel",
+            "tgt": "hh_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dac_v2meso",
+            "tgt": "hh_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_v2meso",
+            "tgt": "hh_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_v2meso",
+            "tgt": "hh_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2meso",
+            "tgt": "hh_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dac_v2endo",
+            "tgt": "hh_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_v2endo",
+            "tgt": "hh_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_v2endo",
+            "tgt": "hh_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2endo",
+            "tgt": "hh_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dac_v1",
+            "tgt": "hh_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_v1",
+            "tgt": "hh_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_v1",
+            "tgt": "hh_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v1",
+            "tgt": "hh_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "bra_skel",
+            "tgt": "hnf1_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_skel",
+            "tgt": "hnf1_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "bra_v2meso",
+            "tgt": "hnf1_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_v2meso",
+            "tgt": "hnf1_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "bra_v2endo",
+            "tgt": "hnf1_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_v2endo",
+            "tgt": "hnf1_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "bra_v1",
+            "tgt": "hnf1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_v1",
+            "tgt": "hnf1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "delta_v2meso",
+            "tgt": "j_suh_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                21
+            ]
+        },
+        {
+            "src": "delta_skel",
+            "tgt": "j_suh_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                21
+            ]
+        },
+        {
+            "src": "delta_v2meso",
+            "tgt": "j_suh_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                18,
+                30
+            ]
+        },
+        {
+            "src": "delta_v2endo",
+            "tgt": "j_suh_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                18,
+                30
+            ]
+        },
+        {
+            "src": "delta_v2endo",
+            "tgt": "j_suh_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                7,
+                30
+            ]
+        },
+        {
+            "src": "delta_v1",
+            "tgt": "j_suh_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                7,
+                30
+            ]
+        },
+        {
+            "src": "delta_v2endo",
+            "tgt": "j_suh_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                13
+            ]
+        },
+        {
+            "src": "delta_v1",
+            "tgt": "j_suh_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                8
+            ]
+        },
+        {
+            "src": "delta_skel",
+            "tgt": "j_suh_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                13
+            ]
+        },
+        {
+            "src": "delta_skel",
+            "tgt": "j_suh_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                8
+            ]
+        },
+        {
+            "src": "signalv2_v2meso",
+            "tgt": "j_v2_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                21
+            ]
+        },
+        {
+            "src": "signalv2_skel",
+            "tgt": "j_v2_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                21
+            ]
+        },
+        {
+            "src": "signalv2_v2meso",
+            "tgt": "j_v2_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                18,
+                30
+            ]
+        },
+        {
+            "src": "signalv2_v2endo",
+            "tgt": "j_v2_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                18,
+                30
+            ]
+        },
+        {
+            "src": "signalv2_v2endo",
+            "tgt": "j_v2_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                7,
+                30
+            ]
+        },
+        {
+            "src": "signalv2_v1",
+            "tgt": "j_v2_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                7,
+                30
+            ]
+        },
+        {
+            "src": "mat_n_b_cat_ModSkel_skel",
+            "tgt": "mat_n_b_cat_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "mat_n_b_cat_ModV2M_v2meso",
+            "tgt": "mat_n_b_cat_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "mat_n_b_cat_ModV2E_v2endo",
+            "tgt": "mat_n_b_cat_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "mat_n_b_cat_ModV1E_v1",
+            "tgt": "mat_n_b_cat_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_alpha_skel",
+            "tgt": "otx_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_beta_skel",
+            "tgt": "otx_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_alpha_v2meso",
+            "tgt": "otx_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_beta_v2meso",
+            "tgt": "otx_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_alpha_v2endo",
+            "tgt": "otx_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_beta_v2endo",
+            "tgt": "otx_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_alpha_v1",
+            "tgt": "otx_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_beta_v1",
+            "tgt": "otx_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "pmar1_skel",
+            "tgt": "u1_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "pmar1_v2meso",
+            "tgt": "u1_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "pmar1_v2endo",
+            "tgt": "u1_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "pmar1_v1",
+            "tgt": "u1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "alx1_skel",
+            "tgt": "vegfr_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dri_skel",
+            "tgt": "vegfr_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hex_skel",
+            "tgt": "vegfr_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_skel",
+            "tgt": "vegfr_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_v2meso",
+            "tgt": "vegfr_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dri_v2meso",
+            "tgt": "vegfr_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hex_v2meso",
+            "tgt": "vegfr_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2meso",
+            "tgt": "vegfr_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_v2endo",
+            "tgt": "vegfr_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dri_v2endo",
+            "tgt": "vegfr_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hex_v2endo",
+            "tgt": "vegfr_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2endo",
+            "tgt": "vegfr_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_v1",
+            "tgt": "vegfr_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dri_v1",
+            "tgt": "vegfr_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hex_v1",
+            "tgt": "vegfr_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v1",
+            "tgt": "vegfr_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_skel",
+            "tgt": "wnt16_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "bra_skel",
+            "tgt": "wnt16_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_v2meso",
+            "tgt": "wnt16_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "bra_v2meso",
+            "tgt": "wnt16_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_v2endo",
+            "tgt": "wnt16_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "bra_v2endo",
+            "tgt": "wnt16_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_v1",
+            "tgt": "wnt16_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "bra_v1",
+            "tgt": "wnt16_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "wnt16_v2meso",
+            "tgt": "j_wnt16_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                21
+            ]
+        },
+        {
+            "src": "wnt16_skel",
+            "tgt": "j_wnt16_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "wnt16_skel",
+            "tgt": "j_wnt16_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                21
+            ]
+        },
+        {
+            "src": "wnt16_v2meso",
+            "tgt": "j_wnt16_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "wnt16_v2meso",
+            "tgt": "j_wnt16_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                18,
+                30
+            ]
+        },
+        {
+            "src": "wnt16_v2endo",
+            "tgt": "j_wnt16_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "wnt16_v2endo",
+            "tgt": "j_wnt16_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                7,
+                30
+            ]
+        },
+        {
+            "src": "wnt16_v1",
+            "tgt": "j_wnt16_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "runx_skel",
+            "tgt": "delta_ModA_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_skel",
+            "tgt": "delta_ModA_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_skel",
+            "tgt": "delta_ModR11_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "delta_ModA_skel",
+            "tgt": "delta_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "delta_ModR11_skel",
+            "tgt": "delta_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_skel",
+            "tgt": "delta_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "runx_v2meso",
+            "tgt": "delta_ModA_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2meso",
+            "tgt": "delta_ModA_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2meso",
+            "tgt": "delta_ModR11_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "delta_ModA_v2meso",
+            "tgt": "delta_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "delta_ModR11_v2meso",
+            "tgt": "delta_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2meso",
+            "tgt": "delta_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "runx_v2endo",
+            "tgt": "delta_ModA_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2endo",
+            "tgt": "delta_ModA_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2endo",
+            "tgt": "delta_ModR11_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "delta_ModA_v2endo",
+            "tgt": "delta_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "delta_ModR11_v2endo",
+            "tgt": "delta_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2endo",
+            "tgt": "delta_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "runx_v1",
+            "tgt": "delta_ModA_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v1",
+            "tgt": "delta_ModA_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v1",
+            "tgt": "delta_ModR11_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "delta_ModA_v1",
+            "tgt": "delta_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "delta_ModR11_v1",
+            "tgt": "delta_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v1",
+            "tgt": "delta_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_skel",
+            "tgt": "temp_hex_ets1_or_tgif_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_skel",
+            "tgt": "temp_hex_ets1_or_tgif_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_skel",
+            "tgt": "hex_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_hex_ets1_or_tgif_skel",
+            "tgt": "hex_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2meso",
+            "tgt": "temp_hex_ets1_or_tgif_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_v2meso",
+            "tgt": "temp_hex_ets1_or_tgif_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_v2meso",
+            "tgt": "hex_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_hex_ets1_or_tgif_v2meso",
+            "tgt": "hex_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2endo",
+            "tgt": "temp_hex_ets1_or_tgif_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_v2endo",
+            "tgt": "temp_hex_ets1_or_tgif_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_v2endo",
+            "tgt": "hex_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_hex_ets1_or_tgif_v2endo",
+            "tgt": "hex_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v1",
+            "tgt": "temp_hex_ets1_or_tgif_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_v1",
+            "tgt": "temp_hex_ets1_or_tgif_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_v1",
+            "tgt": "hex_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_hex_ets1_or_tgif_v1",
+            "tgt": "hex_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_skel",
+            "tgt": "tgif_ModE_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hex_skel",
+            "tgt": "tgif_ModE_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_skel",
+            "tgt": "tgif_ModE_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_skel",
+            "tgt": "tgif_ModL_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "myc_skel",
+            "tgt": "tgif_ModL_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_ModE_skel",
+            "tgt": "tgif_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_ModL_skel",
+            "tgt": "tgif_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2meso",
+            "tgt": "tgif_ModE_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hex_v2meso",
+            "tgt": "tgif_ModE_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_v2meso",
+            "tgt": "tgif_ModE_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_v2meso",
+            "tgt": "tgif_ModL_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "myc_v2meso",
+            "tgt": "tgif_ModL_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_ModE_v2meso",
+            "tgt": "tgif_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_ModL_v2meso",
+            "tgt": "tgif_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2endo",
+            "tgt": "tgif_ModE_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hex_v2endo",
+            "tgt": "tgif_ModE_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_v2endo",
+            "tgt": "tgif_ModE_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_v2endo",
+            "tgt": "tgif_ModL_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "myc_v2endo",
+            "tgt": "tgif_ModL_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_ModE_v2endo",
+            "tgt": "tgif_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_ModL_v2endo",
+            "tgt": "tgif_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v1",
+            "tgt": "tgif_ModE_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hex_v1",
+            "tgt": "tgif_ModE_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_v1",
+            "tgt": "tgif_ModE_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_v1",
+            "tgt": "tgif_ModL_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "myc_v1",
+            "tgt": "tgif_ModL_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_ModE_v1",
+            "tgt": "tgif_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_ModL_v1",
+            "tgt": "tgif_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "u1_skel",
+            "tgt": "tel_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_skel",
+            "tgt": "tel_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "u1_v2meso",
+            "tgt": "tel_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2meso",
+            "tgt": "tel_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "u1_v2endo",
+            "tgt": "tel_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2endo",
+            "tgt": "tel_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "u1_v1",
+            "tgt": "tel_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v1",
+            "tgt": "tel_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_skel",
+            "tgt": "tbr_ModA_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_skel",
+            "tgt": "tbr_ModA_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_skel",
+            "tgt": "tbr_ModG2_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_skel",
+            "tgt": "tbr_ModG2_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_ModA_skel",
+            "tgt": "tbr_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_ModG2_skel",
+            "tgt": "tbr_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_skel",
+            "tgt": "tbr_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2meso",
+            "tgt": "tbr_ModA_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2meso",
+            "tgt": "tbr_ModA_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2meso",
+            "tgt": "tbr_ModG2_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_v2meso",
+            "tgt": "tbr_ModG2_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_ModA_v2meso",
+            "tgt": "tbr_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_ModG2_v2meso",
+            "tgt": "tbr_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2meso",
+            "tgt": "tbr_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2endo",
+            "tgt": "tbr_ModA_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2endo",
+            "tgt": "tbr_ModA_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v2endo",
+            "tgt": "tbr_ModG2_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_v2endo",
+            "tgt": "tbr_ModG2_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_ModA_v2endo",
+            "tgt": "tbr_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_ModG2_v2endo",
+            "tgt": "tbr_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2endo",
+            "tgt": "tbr_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v1",
+            "tgt": "tbr_ModA_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v1",
+            "tgt": "tbr_ModA_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "ets1_v1",
+            "tgt": "tbr_ModG2_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "erg_v1",
+            "tgt": "tbr_ModG2_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_ModA_v1",
+            "tgt": "tbr_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_ModG2_v1",
+            "tgt": "tbr_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v1",
+            "tgt": "tbr_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_v1",
+            "tgt": "signalv2_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_v1",
+            "tgt": "signalv2_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gatae_skel",
+            "tgt": "temp_otx_beta_gatae_and_otx_alpha_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_alpha_skel",
+            "tgt": "temp_otx_beta_gatae_and_otx_alpha_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_otx_beta_gatae_and_otx_alpha_skel",
+            "tgt": "otx_beta_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_skel",
+            "tgt": "otx_beta_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "bra_skel",
+            "tgt": "otx_beta_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gatae_v2meso",
+            "tgt": "temp_otx_beta_gatae_and_otx_alpha_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_alpha_v2meso",
+            "tgt": "temp_otx_beta_gatae_and_otx_alpha_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_otx_beta_gatae_and_otx_alpha_v2meso",
+            "tgt": "otx_beta_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_v2meso",
+            "tgt": "otx_beta_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "bra_v2meso",
+            "tgt": "otx_beta_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gatae_v2endo",
+            "tgt": "temp_otx_beta_gatae_and_otx_alpha_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_alpha_v2endo",
+            "tgt": "temp_otx_beta_gatae_and_otx_alpha_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_otx_beta_gatae_and_otx_alpha_v2endo",
+            "tgt": "otx_beta_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_v2endo",
+            "tgt": "otx_beta_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "bra_v2endo",
+            "tgt": "otx_beta_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gatae_v1",
+            "tgt": "temp_otx_beta_gatae_and_otx_alpha_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_alpha_v1",
+            "tgt": "temp_otx_beta_gatae_and_otx_alpha_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_otx_beta_gatae_and_otx_alpha_v1",
+            "tgt": "otx_beta_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_v1",
+            "tgt": "otx_beta_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "bra_v1",
+            "tgt": "otx_beta_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxn2_3_skel",
+            "tgt": "temp_nrl_foxn23_or_tgif_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_skel",
+            "tgt": "temp_nrl_foxn23_or_tgif_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_nrl_foxn23_or_tgif_skel",
+            "tgt": "nrl_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_skel",
+            "tgt": "nrl_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_skel",
+            "tgt": "nrl_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxn2_3_v2meso",
+            "tgt": "temp_nrl_foxn23_or_tgif_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_v2meso",
+            "tgt": "temp_nrl_foxn23_or_tgif_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_nrl_foxn23_or_tgif_v2meso",
+            "tgt": "nrl_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_v2meso",
+            "tgt": "nrl_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2meso",
+            "tgt": "nrl_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxn2_3_v2endo",
+            "tgt": "temp_nrl_foxn23_or_tgif_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_v2endo",
+            "tgt": "temp_nrl_foxn23_or_tgif_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_nrl_foxn23_or_tgif_v2endo",
+            "tgt": "nrl_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_v2endo",
+            "tgt": "nrl_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2endo",
+            "tgt": "nrl_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxn2_3_v1",
+            "tgt": "temp_nrl_foxn23_or_tgif_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tgif_v1",
+            "tgt": "temp_nrl_foxn23_or_tgif_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "temp_nrl_foxn23_or_tgif_v1",
+            "tgt": "nrl_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "tbr_v1",
+            "tgt": "nrl_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v1",
+            "tgt": "nrl_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_alpha_ModSkel_skel",
+            "tgt": "otx_alpha_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_alpha_ModV2_v2meso",
+            "tgt": "otx_alpha_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_alpha_ModV2_v2endo",
+            "tgt": "otx_alpha_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_alpha_ModV1E_v1",
+            "tgt": "otx_alpha_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_skel",
+            "tgt": "wnt8_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_v2meso",
+            "tgt": "wnt8_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_v2endo",
+            "tgt": "wnt8_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_v1",
+            "tgt": "wnt8_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "myc_ModV2M_v2meso",
+            "tgt": "myc_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "myc_ModV2E_v2endo",
+            "tgt": "myc_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "u1_skel",
+            "tgt": "hesc_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_skel",
+            "tgt": "hesc_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "pmar1_skel",
+            "tgt": "hesc_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "u1_v2meso",
+            "tgt": "hesc_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v2meso",
+            "tgt": "hesc_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "pmar1_v2meso",
+            "tgt": "hesc_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "u1_v2endo",
+            "tgt": "hesc_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v2endo",
+            "tgt": "hesc_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "pmar1_v2endo",
+            "tgt": "hesc_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "u1_v1",
+            "tgt": "hesc_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v1",
+            "tgt": "hesc_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "pmar1_v1",
+            "tgt": "hesc_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "j_suh_skel",
+            "tgt": "gcm_ModE_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_skel",
+            "tgt": "gcm_ModE_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_skel",
+            "tgt": "gcm_ModE_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "j_suh_v2meso",
+            "tgt": "gcm_ModE_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_v2meso",
+            "tgt": "gcm_ModE_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v2meso",
+            "tgt": "gcm_ModE_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "j_suh_v2endo",
+            "tgt": "gcm_ModE_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_v2endo",
+            "tgt": "gcm_ModE_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v2endo",
+            "tgt": "gcm_ModE_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "j_suh_v1",
+            "tgt": "gcm_ModE_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "alx1_v1",
+            "tgt": "gcm_ModE_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v1",
+            "tgt": "gcm_ModE_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "gcm_skel",
+            "tgt": "gcm_ModG_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_skel",
+            "tgt": "gcm_ModG_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_ModE_skel",
+            "tgt": "gcm_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_ModG_skel",
+            "tgt": "gcm_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_v2meso",
+            "tgt": "gcm_ModG_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_v2meso",
+            "tgt": "gcm_ModG_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_ModE_v2meso",
+            "tgt": "gcm_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_ModG_v2meso",
+            "tgt": "gcm_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_v2endo",
+            "tgt": "gcm_ModG_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_v2endo",
+            "tgt": "gcm_ModG_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_ModE_v2endo",
+            "tgt": "gcm_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_ModG_v2endo",
+            "tgt": "gcm_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_v1",
+            "tgt": "gcm_ModG_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_v1",
+            "tgt": "gcm_ModG_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_ModE_v1",
+            "tgt": "gcm_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_ModG_v1",
+            "tgt": "gcm_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_skel",
+            "tgt": "brn1_2_4_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_skel",
+            "tgt": "brn1_2_4_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gatae_skel",
+            "tgt": "brn1_2_4_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2meso",
+            "tgt": "brn1_2_4_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_v2meso",
+            "tgt": "brn1_2_4_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gatae_v2meso",
+            "tgt": "brn1_2_4_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2endo",
+            "tgt": "brn1_2_4_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_v2endo",
+            "tgt": "brn1_2_4_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gatae_v2endo",
+            "tgt": "brn1_2_4_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v1",
+            "tgt": "brn1_2_4_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_v1",
+            "tgt": "brn1_2_4_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gatae_v1",
+            "tgt": "brn1_2_4_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_skel",
+            "tgt": "bra_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_skel",
+            "tgt": "bra_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_skel",
+            "tgt": "bra_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_v2meso",
+            "tgt": "bra_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_v2meso",
+            "tgt": "bra_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2meso",
+            "tgt": "bra_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_v2endo",
+            "tgt": "bra_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_v2endo",
+            "tgt": "bra_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2endo",
+            "tgt": "bra_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_v1",
+            "tgt": "bra_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_v1",
+            "tgt": "bra_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v1",
+            "tgt": "bra_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_skel",
+            "tgt": "eve_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_skel",
+            "tgt": "eve_shutoff_sensor_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_skel",
+            "tgt": "eve_shutoff_sensor_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_shutoff_sensor_skel",
+            "tgt": "eve_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "j_tcf_v2meso",
+            "tgt": "eve_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v2meso",
+            "tgt": "eve_shutoff_sensor_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_v2meso",
+            "tgt": "eve_shutoff_sensor_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_shutoff_sensor_v2meso",
+            "tgt": "eve_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "j_tcf_v2endo",
+            "tgt": "eve_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v2endo",
+            "tgt": "eve_shutoff_sensor_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_v2endo",
+            "tgt": "eve_shutoff_sensor_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_shutoff_sensor_v2endo",
+            "tgt": "eve_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "j_tcf_v1",
+            "tgt": "eve_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v1",
+            "tgt": "eve_shutoff_sensor_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_v1",
+            "tgt": "eve_shutoff_sensor_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_shutoff_sensor_v1",
+            "tgt": "eve_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "j_tcf_ModH_skel",
+            "tgt": "blimp1b_Mod1_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_skel",
+            "tgt": "blimp1b_Mod1_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_skel",
+            "tgt": "blimp1b_Mod1_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_skel",
+            "tgt": "blimp1b_Mod2_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_skel",
+            "tgt": "blimp1b_Mod2_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_v2_skel",
+            "tgt": "blimp1b_Mod3_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_Mod1_skel",
+            "tgt": "blimp1b_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_Mod2_skel",
+            "tgt": "blimp1b_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_Mod3_skel",
+            "tgt": "blimp1b_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_skel",
+            "tgt": "foxa_Mod1_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_skel",
+            "tgt": "foxa_Mod1_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_skel",
+            "tgt": "foxa_Mod2_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_skel",
+            "tgt": "foxa_Mod2_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_skel",
+            "tgt": "foxa_Mod2_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_Mod1_skel",
+            "tgt": "foxa_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_Mod2_skel",
+            "tgt": "foxa_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_Mod3_skel",
+            "tgt": "foxa_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_skel",
+            "tgt": "gatae_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_skel",
+            "tgt": "gatae_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_skel",
+            "tgt": "gatae_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_skel",
+            "tgt": "gatae_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "j_v2_skel",
+            "tgt": "gatae_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_skel",
+            "tgt": "hox11_13b_ModH_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_wnt16_skel",
+            "tgt": "hox11_13b_ModH_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_skel",
+            "tgt": "hox11_13b_ModH_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_skel",
+            "tgt": "hox11_13b_ModW_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_wnt16_skel",
+            "tgt": "hox11_13b_ModW_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_skel",
+            "tgt": "hox11_13b_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModW_skel",
+            "tgt": "hox11_13b_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModH_skel",
+            "tgt": "j_tcf_ModH_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModL_skel",
+            "tgt": "j_tcf_ModL_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_skel",
+            "tgt": "j_tcf_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_skel",
+            "tgt": "j_tcf_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "genex_skel",
+            "tgt": "n_b_cat_ModH_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModL_skel",
+            "tgt": "n_b_cat_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModH_skel",
+            "tgt": "n_b_cat_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_skel",
+            "tgt": "pmar1_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_skel",
+            "tgt": "pmar1_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_skel",
+            "tgt": "pmar1_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_skel",
+            "tgt": "pmar1_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_skel",
+            "tgt": "signalv2_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_skel",
+            "tgt": "signalv2_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_skel",
+            "tgt": "z13_krl_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_skel",
+            "tgt": "z13_krl_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_skel",
+            "tgt": "z13_krl_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gatae_skel",
+            "tgt": "z13_krl_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dac_skel",
+            "tgt": "z13_krl_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_skel",
+            "tgt": "z13_krl_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "myc_skel",
+            "tgt": "z13_krl_skel",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2meso",
+            "tgt": "blimp1b_Mod1_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_v2meso",
+            "tgt": "blimp1b_Mod1_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2meso",
+            "tgt": "blimp1b_Mod1_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v2meso",
+            "tgt": "blimp1b_Mod2_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2meso",
+            "tgt": "blimp1b_Mod2_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_v2_v2meso",
+            "tgt": "blimp1b_Mod3_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_Mod1_v2meso",
+            "tgt": "blimp1b_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_Mod2_v2meso",
+            "tgt": "blimp1b_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_Mod3_v2meso",
+            "tgt": "blimp1b_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2meso",
+            "tgt": "foxa_Mod1_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v2meso",
+            "tgt": "foxa_Mod1_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2meso",
+            "tgt": "foxa_Mod2_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v2meso",
+            "tgt": "foxa_Mod2_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2meso",
+            "tgt": "foxa_Mod2_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_Mod1_v2meso",
+            "tgt": "foxa_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_Mod2_v2meso",
+            "tgt": "foxa_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_Mod3_v2meso",
+            "tgt": "foxa_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2meso",
+            "tgt": "gatae_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v2meso",
+            "tgt": "gatae_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_v2meso",
+            "tgt": "gatae_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v2meso",
+            "tgt": "gatae_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "j_v2_v2meso",
+            "tgt": "gatae_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2meso",
+            "tgt": "hox11_13b_ModH_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_wnt16_v2meso",
+            "tgt": "hox11_13b_ModH_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v2meso",
+            "tgt": "hox11_13b_ModH_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_v2meso",
+            "tgt": "hox11_13b_ModW_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_wnt16_v2meso",
+            "tgt": "hox11_13b_ModW_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v2meso",
+            "tgt": "hox11_13b_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModW_v2meso",
+            "tgt": "hox11_13b_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModH_v2meso",
+            "tgt": "j_tcf_ModH_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModL_v2meso",
+            "tgt": "j_tcf_ModL_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2meso",
+            "tgt": "j_tcf_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_v2meso",
+            "tgt": "j_tcf_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "genex_v2meso",
+            "tgt": "n_b_cat_ModH_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModL_v2meso",
+            "tgt": "n_b_cat_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModH_v2meso",
+            "tgt": "n_b_cat_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2meso",
+            "tgt": "pmar1_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_v2meso",
+            "tgt": "pmar1_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2meso",
+            "tgt": "pmar1_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2meso",
+            "tgt": "pmar1_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_v2meso",
+            "tgt": "signalv2_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_v2meso",
+            "tgt": "signalv2_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2meso",
+            "tgt": "z13_krl_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_v2meso",
+            "tgt": "z13_krl_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_v2meso",
+            "tgt": "z13_krl_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gatae_v2meso",
+            "tgt": "z13_krl_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dac_v2meso",
+            "tgt": "z13_krl_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_v2meso",
+            "tgt": "z13_krl_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "myc_v2meso",
+            "tgt": "z13_krl_v2meso",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2endo",
+            "tgt": "blimp1b_Mod1_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_v2endo",
+            "tgt": "blimp1b_Mod1_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2endo",
+            "tgt": "blimp1b_Mod1_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v2endo",
+            "tgt": "blimp1b_Mod2_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2endo",
+            "tgt": "blimp1b_Mod2_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_v2_v2endo",
+            "tgt": "blimp1b_Mod3_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_Mod1_v2endo",
+            "tgt": "blimp1b_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_Mod2_v2endo",
+            "tgt": "blimp1b_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_Mod3_v2endo",
+            "tgt": "blimp1b_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2endo",
+            "tgt": "foxa_Mod1_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v2endo",
+            "tgt": "foxa_Mod1_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2endo",
+            "tgt": "foxa_Mod2_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v2endo",
+            "tgt": "foxa_Mod2_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2endo",
+            "tgt": "foxa_Mod2_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_Mod1_v2endo",
+            "tgt": "foxa_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_Mod2_v2endo",
+            "tgt": "foxa_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_Mod3_v2endo",
+            "tgt": "foxa_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2endo",
+            "tgt": "gatae_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v2endo",
+            "tgt": "gatae_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_v2endo",
+            "tgt": "gatae_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v2endo",
+            "tgt": "gatae_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "j_v2_v2endo",
+            "tgt": "gatae_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2endo",
+            "tgt": "hox11_13b_ModH_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_wnt16_v2endo",
+            "tgt": "hox11_13b_ModH_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v2endo",
+            "tgt": "hox11_13b_ModH_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_v2endo",
+            "tgt": "hox11_13b_ModW_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_wnt16_v2endo",
+            "tgt": "hox11_13b_ModW_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v2endo",
+            "tgt": "hox11_13b_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModW_v2endo",
+            "tgt": "hox11_13b_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModH_v2endo",
+            "tgt": "j_tcf_ModH_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModL_v2endo",
+            "tgt": "j_tcf_ModL_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2endo",
+            "tgt": "j_tcf_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_v2endo",
+            "tgt": "j_tcf_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "genex_v2endo",
+            "tgt": "n_b_cat_ModH_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModL_v2endo",
+            "tgt": "n_b_cat_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModH_v2endo",
+            "tgt": "n_b_cat_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2endo",
+            "tgt": "pmar1_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_v2endo",
+            "tgt": "pmar1_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v2endo",
+            "tgt": "pmar1_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v2endo",
+            "tgt": "pmar1_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_v2endo",
+            "tgt": "signalv2_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_v2endo",
+            "tgt": "signalv2_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v2endo",
+            "tgt": "z13_krl_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_v2endo",
+            "tgt": "z13_krl_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_v2endo",
+            "tgt": "z13_krl_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gatae_v2endo",
+            "tgt": "z13_krl_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dac_v2endo",
+            "tgt": "z13_krl_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_v2endo",
+            "tgt": "z13_krl_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "myc_v2endo",
+            "tgt": "z13_krl_v2endo",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v1",
+            "tgt": "blimp1b_Mod1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_v1",
+            "tgt": "blimp1b_Mod1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v1",
+            "tgt": "blimp1b_Mod1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v1",
+            "tgt": "blimp1b_Mod2_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v1",
+            "tgt": "blimp1b_Mod2_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_v2_v1",
+            "tgt": "blimp1b_Mod3_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_Mod1_v1",
+            "tgt": "blimp1b_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_Mod2_v1",
+            "tgt": "blimp1b_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_Mod3_v1",
+            "tgt": "blimp1b_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v1",
+            "tgt": "foxa_Mod1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v1",
+            "tgt": "foxa_Mod1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v1",
+            "tgt": "foxa_Mod2_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v1",
+            "tgt": "foxa_Mod2_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v1",
+            "tgt": "foxa_Mod2_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_Mod1_v1",
+            "tgt": "foxa_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_Mod2_v1",
+            "tgt": "foxa_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_Mod3_v1",
+            "tgt": "foxa_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v1",
+            "tgt": "gatae_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_suh_v1",
+            "tgt": "gatae_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gcm_v1",
+            "tgt": "gatae_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v1",
+            "tgt": "gatae_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ],
+            "irreversible": true
+        },
+        {
+            "src": "j_v2_v1",
+            "tgt": "gatae_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v1",
+            "tgt": "hox11_13b_ModH_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_wnt16_v1",
+            "tgt": "hox11_13b_ModH_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v1",
+            "tgt": "hox11_13b_ModH_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "eve_v1",
+            "tgt": "hox11_13b_ModW_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_wnt16_v1",
+            "tgt": "hox11_13b_ModW_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModH_v1",
+            "tgt": "hox11_13b_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hox11_13b_ModW_v1",
+            "tgt": "hox11_13b_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModH_v1",
+            "tgt": "j_tcf_ModH_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModL_v1",
+            "tgt": "j_tcf_ModL_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModV1E_v1",
+            "tgt": "j_tcf_ModV1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v1",
+            "tgt": "j_tcf_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_v1",
+            "tgt": "j_tcf_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModV1_v1",
+            "tgt": "j_tcf_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "genex_v1",
+            "tgt": "n_b_cat_ModV1E_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "genex_v1",
+            "tgt": "n_b_cat_ModH_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModL_v1",
+            "tgt": "n_b_cat_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModV1E_v1",
+            "tgt": "n_b_cat_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "n_b_cat_ModH_v1",
+            "tgt": "n_b_cat_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v1",
+            "tgt": "pmar1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_v1",
+            "tgt": "pmar1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "otx_v1",
+            "tgt": "pmar1_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "hesc_v1",
+            "tgt": "pmar1_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModH_v1",
+            "tgt": "z13_krl_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "j_tcf_ModL_v1",
+            "tgt": "z13_krl_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "foxa_v1",
+            "tgt": "z13_krl_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "gatae_v1",
+            "tgt": "z13_krl_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "dac_v1",
+            "tgt": "z13_krl_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "blimp1b_v1",
+            "tgt": "z13_krl_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "myc_v1",
+            "tgt": "z13_krl_v1",
+            "type": -1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "mat_n_b_cat_ModSkel_skel",
+            "tgt": "n_b_cat_ModL_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "mat_n_b_cat_ModV2M_v2meso",
+            "tgt": "n_b_cat_ModL_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "mat_n_b_cat_ModV2E_v2endo",
+            "tgt": "n_b_cat_ModL_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "mat_n_b_cat_ModV1E_v1",
+            "tgt": "n_b_cat_ModL_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "wnt8_skel",
+            "tgt": "n_b_cat_ModH_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "wnt8_v2meso",
+            "tgt": "n_b_cat_ModH_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                21
+            ]
+        },
+        {
+            "src": "wnt8_v2endo",
+            "tgt": "n_b_cat_ModH_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                13
+            ]
+        },
+        {
+            "src": "wnt8_v1",
+            "tgt": "n_b_cat_ModH_skel",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                8
+            ]
+        },
+        {
+            "src": "wnt8_v2meso",
+            "tgt": "n_b_cat_ModH_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "wnt8_skel",
+            "tgt": "n_b_cat_ModH_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                21
+            ]
+        },
+        {
+            "src": "wnt8_v2endo",
+            "tgt": "n_b_cat_ModH_v2meso",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                18,
+                30
+            ]
+        },
+        {
+            "src": "wnt8_v2endo",
+            "tgt": "n_b_cat_ModH_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "wnt8_skel",
+            "tgt": "n_b_cat_ModH_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                13
+            ]
+        },
+        {
+            "src": "wnt8_v2meso",
+            "tgt": "n_b_cat_ModH_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                18,
+                30
+            ]
+        },
+        {
+            "src": "wnt8_v1",
+            "tgt": "n_b_cat_ModH_v2endo",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                7,
+                30
+            ]
+        },
+        {
+            "src": "wnt8_v1",
+            "tgt": "n_b_cat_ModH_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                0,
+                30
+            ]
+        },
+        {
+            "src": "wnt8_skel",
+            "tgt": "n_b_cat_ModH_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                6,
+                8
+            ]
+        },
+        {
+            "src": "wnt8_v2endo",
+            "tgt": "n_b_cat_ModH_v1",
+            "type": 1,
+            "d_min": 1,
+            "d_max": 5,
+            "active_window": [
+                7,
+                30
+            ]
+        }
+    ],
+    "state_constraints": []
+}

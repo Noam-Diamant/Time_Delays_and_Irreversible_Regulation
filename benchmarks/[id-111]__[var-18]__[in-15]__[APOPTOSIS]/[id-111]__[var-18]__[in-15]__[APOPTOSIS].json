@@ -1,0 +1,35 @@
+{
+    "model_id": "[id-111]__[var-18]__[in-15]__[APOPTOSIS]",
+    "observations": {
+        "time_series_trajectories": [
+            [
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 1, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 1, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 1, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 1, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 1, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0},
+                {"v_FASLG": 0, "v_FAS_FASL_complex": 0, "v_FADD": 0, "v_CASP8": 0, "v_CASP3": 0, "v_Orf3a": 0, "v_TRADD_FADD_complex": 0, "v_CASP9_cell_active": 0}
+            ]
+        ],
+        "steady_states": []
+    }
+}
