@@ -183,7 +183,7 @@ class ParallelCABN_Synthesis:
             total_permutations = 0
             all_permutations = []
             all_trajectories = []
-            proven_rules = []  # Added to collect rules
+            proven_rules = [] 
 
             print(f"Executing Dynamic Delay Search (Max Solutions: {max_solutions})")
             smt_dump_path = os.path.join("Results_BBM", "smt_constraints_dump.txt")
