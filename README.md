@@ -1,7 +1,7 @@
 # Time Delays and Irreversible Regulation (Docker)
 
-## Build
-Always run these commands, regardless of which test you want to run
+## running the code
+Always run these commands, regardless of which test you want to run:
 
 ```bash
 
@@ -9,7 +9,7 @@ docker build -t time-delays-artifact:latest .
 mkdir -p logs_docker results_docker
 ```
 
-## Smoke test (abstract benchmark)
+### Smoke test (abstract benchmark)
 In order to run smoke test, run the following command:
 
 ```bash
@@ -24,7 +24,7 @@ docker run --rm \
 Log: `logs_docker/smoke_abstract.log`  
 Results: `results_docker/[id-035]__[var-11]__[in-5]__[BT474-BREAST-CELL-LINE-SHORT-TERM] - abstract/`
 
-## All experiments
+### All experiments
 In order to run all the experiments, run the following command:
 
 ```bash
