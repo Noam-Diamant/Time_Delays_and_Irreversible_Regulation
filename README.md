@@ -1,6 +1,7 @@
 # Time Delays and Irreversible Regulation (Docker)
 
-## Build - Always run these commands
+## Build
+Always run these commands, regardless of which test you want to run
 
 ```bash
 
