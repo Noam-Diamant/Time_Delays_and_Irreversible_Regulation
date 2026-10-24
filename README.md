@@ -1,6 +1,6 @@
 # Time Delays and Irreversible Regulation (Docker)
 
-## running the code
+## Running the code
 Always run these commands, regardless of which test you want to run:
 
 ```bash
